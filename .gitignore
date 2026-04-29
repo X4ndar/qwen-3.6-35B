@@ -1,0 +1,18 @@
+# Runtime / secrets — never commit
+*.api-key
+.qwen-api-key
+*.log
+logs/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.venv-vllm/
+
+# Model weights (huge)
+models/
+
+# Local cruft
+.DS_Store
+*.swp
